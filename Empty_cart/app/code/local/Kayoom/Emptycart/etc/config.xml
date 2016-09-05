@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Kayoom_Emptycart>
+            <version>0.0.1</version>
+        </Kayoom_Emptycart>
+    </modules>
+    <global>
+        <helpers>
+            <emptycart>
+                <class>Kayoom_Emptycart_Helper</class>
+            </emptycart>
+        </helpers>
+        <models>
+             <emptycart>
+                <class>Kayoom_Emptycart_Model</class>
+             </emptycart>
+        </models>
+    </global>
+    <adminhtml>
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <emptycart_options>
+                                            <title>Custom Configuration Section</title>
+                                        </emptycart_options>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+    </adminhtml>
+</config>
