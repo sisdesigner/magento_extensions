@@ -1,0 +1,3 @@
+app/code/local/Kayoom/Emptycart/ app/code/local/Kayoom/Emptycart/
+app/design/frontend/template/checkout/cart/noItems.phtml app/design/frontend/kayoom2/default/template/checkout/cart/noItems.phtml
+app/etc/modules/Kayoom_Emptycart.xml app/etc/modules/Kayoom_Emptycart.xml
